@@ -1,0 +1,34 @@
+.fileContainer .uploadPictureContainer {
+  width: 100px;
+  margin: 10px;
+  padding: 0;
+  background: #edf2f6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.1);
+  border: 1px solid #d0dbe4;
+  position: relative;
+}
+
+.fileContainer .uploadPictureContainer img.uploadPicture {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+}
+
+.fileContainer .deleteImage {
+  position: absolute;
+  top: -9px;
+  right: -9px;
+  color: #fdf3f3;
+  background: #191818;
+  border-radius: 50%;
+  text-align: center;
+  cursor: pointer;
+  font-size: 11px;
+  font-weight: bold;
+  line-height: 20px;
+  width: 18px;
+  height: 19px;
+}
